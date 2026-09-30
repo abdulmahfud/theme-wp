@@ -93,6 +93,16 @@ button, input { font: inherit; }
 .mnw-menu .sub-menu { padding-left: 14px; }
 .mnw-menu .sub-menu a { font-weight: 500; text-transform: none; }
 
+/* Quick menu strip: the primary menu, always visible on mobile as a horizontal scroll row (the toggled .mnw-nav
+   panel above still exists there too, for search + the full/nested menu). Desktop already shows the full menu
+   via .mnw-nav, so this strip only needs to exist below that breakpoint. */
+.mnw-menu-strip { display: flex; gap: 4px; overflow-x: auto; border-bottom: 1px solid var(--mnw-border); scrollbar-width: none; }
+.mnw-menu-strip::-webkit-scrollbar { display: none; }
+.mnw-menu-strip .mnw-menu { display: flex; flex: none; }
+.mnw-menu-strip .mnw-menu a { white-space: nowrap; }
+.mnw-menu-strip .sub-menu { display: none; } /* Flattened on purpose (depth=1); no room for nested items in a scroll strip. */
+@media (min-width: 992px) { .mnw-menu-strip { display: none; } }
+
 /* Ticker */
 .mnw-ticker { background: var(--mnw-surface); border-bottom: 1px solid var(--mnw-border); font-size: .8125rem; }
 .mnw-ticker__in { display: flex; align-items: center; gap: 10px; padding-block: 6px; }

@@ -50,6 +50,22 @@ defined( 'ABSPATH' ) || exit;
 		</div>
 	</nav>
 
+	<?php
+	// Same menu again, flattened to top level, as an always-visible horizontal scroll strip on mobile (the
+	// panel above stays tap-to-open there, this is just the quick-access row from the layout reference).
+	wp_nav_menu(
+		array(
+			'theme_location'       => 'primary',
+			'container'            => 'nav',
+			'container_class'      => 'mnw-menu-strip',
+			'container_aria_label' => __( 'Menu cepat', 'm-news' ),
+			'menu_class'           => 'mnw-menu',
+			'depth'                => 1,
+			'fallback_cb'          => false,
+		)
+	);
+	?>
+
 	<?php mnews_ticker(); ?>
 </header>
 
