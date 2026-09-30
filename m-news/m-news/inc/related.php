@@ -33,6 +33,26 @@ function mnews_related_ids( $post_id, $limit = 6 ) {
 				'update_post_term_cache' => false,
 			);
 
+			// A video article only recommends other video articles (tag/category are beside the point here).
+			if ( '' !== mnews_video_url( $post_id ) ) {
+				$q = new WP_Query(
+					array_merge(
+						$base,
+						array(
+							'post__not_in' => array( $post_id ),
+							'meta_query'   => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query -- small, deliberate filter (video posts), not a per-page-load hot path.
+								array(
+									'key'     => '_mnews_video',
+									'value'   => '',
+									'compare' => '!=',
+								),
+							),
+						)
+					)
+				);
+				return array_map( 'intval', $q->posts );
+			}
+
 			$cats = wp_get_post_categories( $post_id, array( 'fields' => 'ids' ) );
 			$tags = wp_get_post_tags( $post_id, array( 'fields' => 'ids' ) );
 

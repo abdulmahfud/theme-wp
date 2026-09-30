@@ -100,6 +100,40 @@ function mnews_customize_layout( $wp_customize ) {
 	);
 
 	$wp_customize->add_setting(
+		'mnews_navpanel_network',
+		array(
+			'default'           => true,
+			'sanitize_callback' => 'mnews_sanitize_checkbox',
+		)
+	);
+	$wp_customize->add_control(
+		'mnews_navpanel_network',
+		array(
+			'label'       => __( 'Tampilkan menu Jaringan di panel menu mobile', 'm-news' ),
+			'description' => __( 'Menu ini diisi di Tampilan > Menu (lokasi Jaringan Media) — sama seperti yang tampil di footer.', 'm-news' ),
+			'section'     => 'mnews_header',
+			'type'        => 'checkbox',
+		)
+	);
+
+	$wp_customize->add_setting(
+		'mnews_navpanel_social',
+		array(
+			'default'           => true,
+			'sanitize_callback' => 'mnews_sanitize_checkbox',
+		)
+	);
+	$wp_customize->add_control(
+		'mnews_navpanel_social',
+		array(
+			'label'       => __( 'Tampilkan ikon sosial media di panel menu mobile', 'm-news' ),
+			'description' => __( 'URL akun diisi di Sesuaikan > M-News > Social Media Follow.', 'm-news' ),
+			'section'     => 'mnews_header',
+			'type'        => 'checkbox',
+		)
+	);
+
+	$wp_customize->add_setting(
 		'mnews_tz_label',
 		array(
 			'default'           => 'WIB',

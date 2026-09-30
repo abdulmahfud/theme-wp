@@ -1,7 +1,8 @@
 <?php
 /**
- * Front page: three widget areas (top, main, sidebar). Empty areas get sensible defaults
- * so a fresh install already looks complete.
+ * Front page: three widget areas (top, main, sidebar). An empty "home-main" gets a sensible default (slider +
+ * latest news) so a fresh install already looks complete; an empty "home-sidebar" simply means no sidebar column
+ * at all (full width) — unlike single/archive pages, home has no forced fallback here on purpose.
  *
  * @package M_News
  */
@@ -45,7 +46,11 @@ get_header();
 			?>
 		</div>
 
-		<?php mnews_sidebar( 'home-sidebar' ); ?>
+		<?php if ( is_active_sidebar( 'home-sidebar' ) ) : ?>
+			<aside class="mnw-layout__side" aria-label="<?php esc_attr_e( 'Sidebar', 'm-news' ); ?>">
+				<?php mnews_area( 'home-sidebar' ); ?>
+			</aside>
+		<?php endif; ?>
 	</div>
 </main>
 <?php

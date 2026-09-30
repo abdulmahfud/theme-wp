@@ -17,7 +17,10 @@ const assets = path.join(__dirname, '..', 'm-news', 'assets');
 	const report = [];
 
 	const css = path.join(assets, 'css', 'main.css');
-	const cssOut = csso.minify(fs.readFileSync(css, 'utf8'), { restructure: true, comments: false }).css;
+	// restructure:false — csso's selector-merging pass has corrupted compound descendant selectors here
+	// (e.g. dropped ".mnw-compact__media" from ".mnw-compact__media .mnw-video-badge svg", producing a bare,
+	// wrongly-scoped selector that silently overrode unrelated rules). Plain minification only; still safe.
+	const cssOut = csso.minify(fs.readFileSync(css, 'utf8'), { restructure: false, comments: false }).css;
 	fs.writeFileSync(css.replace(/\.css$/, '.min.css'), cssOut);
 	report.push(['css/main.css', fs.statSync(css).size, Buffer.byteLength(cssOut)]);
 

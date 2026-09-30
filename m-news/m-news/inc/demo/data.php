@@ -180,6 +180,10 @@ function mnews_demo_widget_layout( $m, $c ) {
 					'autoplay'    => 1,
 				),
 			),
+			$banner( '728x90', 728, 90, $m['b728'], 'Iklan setelah slider' ),
+			$block( 'nasional', 'news', 4, 'plain' ),
+			$banner( '728x90', 728, 90, $m['b728'], 'Iklan tengah' ),
+			$block( 'ekonomi', 'featured', 4, 'solid', '#1b7f5c' ),
 			array(
 				'mnews_polling',
 				array(
@@ -187,10 +191,24 @@ function mnews_demo_widget_layout( $m, $c ) {
 					'count' => 6,
 				),
 			),
-			$block( 'nasional', 'carousel', 6, 'theme' ),
-			$banner( '728x90', 728, 90, $m['b728'], 'Iklan tengah' ),
-			$block( 'ekonomi', 'featured', 4, 'solid', '#1b7f5c' ),
-			$block( 'hukum', 'grid-3', 3, 'plain' ),
+			$block( 'hukum', 'news', 4, 'plain' ),
+			$banner( '728x90', 728, 90, $m['b728'], 'Iklan sebelum video' ),
+			array(
+				'mnews_post_list',
+				array(
+					'title'       => 'Video',
+					'layout'      => 'grid-3',
+					'order'       => 'latest',
+					'category'    => 0,
+					'tag'         => '',
+					'count'       => 6,
+					'title_lines' => 0,
+					'show_cat'    => 0,
+					'show_date'   => 1,
+					'paginate'    => 0,
+					'video_only'  => 1,
+				),
+			),
 			$block( 'olahraga', 'grid-3', 3, 'plain' ),
 			$block( 'teknologi', 'grid-2', 4, 'plain' ),
 			array(
@@ -209,7 +227,8 @@ function mnews_demo_widget_layout( $m, $c ) {
 				),
 			),
 		),
-		'home-sidebar'         => array(
+		'home-sidebar'         => array(),
+		'single-sidebar'       => array(
 			array(
 				'mnews_post_list',
 				array(

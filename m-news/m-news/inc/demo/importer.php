@@ -534,6 +534,7 @@ function mnews_demo_step_widgets() {
 	wp_set_sidebars_widgets( $sidebars );
 	update_option( 'mnews_demo_widgets', $placed, false );
 	mnews_demo_seed_polls();
+	mnews_demo_seed_videos();
 
 	/* translators: %d: number of widgets. */
 	return sprintf( __( '%d widget dipasang di area home, sidebar, dan artikel.', 'm-news' ), count( $placed ) );
@@ -579,6 +580,73 @@ function mnews_demo_seed_polls() {
 			update_post_meta( $id, '_mnews_poll_options', implode( "\n", $p['options'] ) );
 			update_post_meta( $id, '_mnews_demo', 1 );
 			update_post_meta( $id, '_mnews_demo_key', $key );
+		}
+	}
+}
+
+/**
+ * One short video post per category, so the "Video" widget/grid has something to show right after import
+ * (a plain article flagged with a video URL, same as a real editor would do — see inc/meta.php). Same stable,
+ * neutral clip on every one on purpose: one external dependency to vet, not six.
+ * Safe to re-run: skipped per post if it already exists (checked by _mnews_demo_key like the demo articles).
+ */
+function mnews_demo_seed_videos() {
+	$video_url = 'https://www.youtube.com/watch?v=jNQXAC9IVRw';
+	$cats      = mnews_demo_category_ids();
+	$colors    = mnews_demo_categories();
+	$videos    = array(
+		'nasional'  => __( 'Video: Suasana Rapat Kerja Nasional Bahas Prioritas Pembangunan', 'm-news' ),
+		'ekonomi'   => __( 'Video: Peninjauan Harga Pasar Menjelang Akhir Tahun', 'm-news' ),
+		'hukum'     => __( 'Video: Jalannya Sidang Lanjutan Kasus Sengketa Lahan', 'm-news' ),
+		'kriminal'  => __( 'Video: Rekaman Olah TKP Kasus Pencurian Kendaraan', 'm-news' ),
+		'olahraga'  => __( 'Video: Momen Final Turnamen Bulu Tangkis Junior', 'm-news' ),
+		'teknologi' => __( 'Video: Demo Langsung Aplikasi Pemantau Kualitas Udara', 'm-news' ),
+	);
+
+	$n = 0;
+	foreach ( $videos as $slug => $title ) {
+		++$n;
+		$key = 'video-' . $slug;
+		if ( get_posts(
+			array(
+				'post_type'      => 'post',
+				'post_status'    => 'any',
+				'meta_key'       => '_mnews_demo_key', // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_key
+				'meta_value'     => $key, // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_value
+				'fields'         => 'ids',
+				'posts_per_page' => 1,
+			)
+		) ) {
+			continue;
+		}
+
+		$post_id = wp_insert_post(
+			array(
+				'post_title'    => $title,
+				'post_content'  => '<p>' . esc_html__( 'Liputan video singkat untuk melengkapi laporan tertulis. Konten pada video ini adalah materi contoh yang disertakan bersama tema untuk memperlihatkan tampilan artikel bertipe video.', 'm-news' ) . '</p>',
+				'post_excerpt'  => __( 'Liputan video singkat untuk melengkapi laporan tertulis.', 'm-news' ),
+				'post_status'   => 'publish',
+				'post_type'     => 'post',
+				'post_author'   => get_current_user_id() ? get_current_user_id() : 1,
+				// Dated within the same old-news range as the regular demo articles (not "now"), so these don't
+				// dominate "latest" widgets like the hero slider just for being freshly imported.
+				'post_date'     => gmdate( 'Y-m-d H:i:s', strtotime( '2024-09-01' ) + $n * 24 * DAY_IN_SECONDS ),
+				'post_category' => isset( $cats[ $slug ] ) ? array( $cats[ $slug ] ) : array(),
+			),
+			true
+		);
+		if ( is_wp_error( $post_id ) || ! $post_id ) {
+			continue;
+		}
+
+		update_post_meta( $post_id, '_mnews_demo', 1 );
+		update_post_meta( $post_id, '_mnews_demo_key', $key );
+		update_post_meta( $post_id, '_mnews_video', $video_url );
+
+		$rgb = isset( $colors[ $slug ] ) ? $colors[ $slug ]['rgb'] : array( 90, 90, 90 );
+		$att = mnews_demo_sideload( 'demo-video-' . $slug . '.jpg', mnews_demo_image( $rgb, $n + 50 ), $title, 'image/jpeg', $post_id, __( 'Ilustrasi. (Foto: Dokumentasi)', 'm-news' ) );
+		if ( $att ) {
+			set_post_thumbnail( $post_id, $att );
 		}
 	}
 }

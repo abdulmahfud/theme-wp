@@ -34,8 +34,18 @@ defined( 'ABSPATH' ) || exit;
 	</div>
 
 	<nav class="mnw-nav" id="mnw-nav" aria-label="<?php esc_attr_e( 'Menu utama', 'm-news' ); ?>">
-		<div class="mnw-container">
+		<div class="mnw-nav__head">
+			<?php mnews_logo( false ); ?>
+			<button type="button" class="mnw-toggle mnw-nav__close" aria-controls="mnw-nav" aria-expanded="false">
+				<span class="screen-reader-text"><?php esc_html_e( 'Tutup menu', 'm-news' ); ?></span>
+				<?php mnews_icon( 'close', 24 ); ?>
+			</button>
+		</div>
+
+		<div class="mnw-container mnw-nav__body">
 			<?php get_search_form(); ?>
+			<?php // Mobile-panel heading ("Jelajahi") sits above the menu but is hidden with the rest of .mnw-nav__extra on desktop, where this same <ul> becomes the ordinary dropdown nav bar. ?>
+			<p class="mnw-nav__heading"><?php esc_html_e( 'Jelajahi', 'm-news' ); ?></p>
 			<?php
 			wp_nav_menu(
 				array(
@@ -47,6 +57,30 @@ defined( 'ABSPATH' ) || exit;
 				)
 			);
 			?>
+
+			<div class="mnw-nav__extra">
+				<?php if ( get_theme_mod( 'mnews_navpanel_network', true ) && has_nav_menu( 'network' ) ) : ?>
+					<p class="mnw-nav__heading"><?php echo esc_html( get_theme_mod( 'mnews_network_title', __( 'Jaringan', 'm-news' ) ) ); ?></p>
+					<?php
+					wp_nav_menu(
+						array(
+							'theme_location' => 'network',
+							'container'      => false,
+							'menu_class'     => 'mnw-menu',
+							'depth'          => 1,
+							'fallback_cb'    => false,
+						)
+					);
+					?>
+				<?php endif; ?>
+
+				<?php if ( get_theme_mod( 'mnews_navpanel_social', true ) ) : ?>
+					<p class="mnw-nav__heading"><?php esc_html_e( 'Ikuti Kami di', 'm-news' ); ?></p>
+					<?php mnews_social_links( 'mnw-social mnw-social--footer' ); ?>
+				<?php endif; ?>
+
+				<p class="mnw-nav__copy"><?php echo esc_html( mnews_copyright_text() ); ?></p>
+			</div>
 		</div>
 	</nav>
 

@@ -79,6 +79,20 @@ function mnews_logo( $heading = true ) {
 }
 
 /**
+ * Copyright line: Customizer text, or "© year site name" by default. Shared by the footer and the mobile menu panel.
+ *
+ * @return string
+ */
+function mnews_copyright_text() {
+	$text = get_theme_mod( 'mnews_copyright', '' );
+	if ( '' === $text ) {
+		/* translators: 1: year, 2: site name. */
+		$text = sprintf( __( 'Copyright © %1$s %2$s - All Rights Reserved', 'm-news' ), gmdate( 'Y' ), get_bloginfo( 'name' ) );
+	}
+	return $text;
+}
+
+/**
  * Breaking-news ticker (cached). Disabled by default; see Customizer > M-News > Header.
  */
 function mnews_ticker() {

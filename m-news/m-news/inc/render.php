@@ -72,7 +72,7 @@ function mnews_video_badge() {
 		return;
 	}
 	echo '<span class="mnw-video-badge">';
-	mnews_icon( 'play', 22 );
+	mnews_icon( 'play', 28 );
 	echo '<span class="screen-reader-text">' . esc_html__( 'Video', 'm-news' ) . '</span></span>';
 }
 

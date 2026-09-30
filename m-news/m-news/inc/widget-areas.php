@@ -49,11 +49,11 @@ function mnews_register_widget_areas() {
 		),
 		'home-sidebar'         => array(
 			__( 'Home – Sidebar', 'm-news' ),
-			__( 'Sidebar kanan halaman depan (lebar 300 px). Banner disarankan 300×250 atau 300×600.', 'm-news' ),
+			__( 'Sidebar kanan halaman depan (lebar 300 px). Kosong secara default (home tampil selebar penuh) — isi widget di sini hanya bila memang ingin sidebar di halaman depan. Banner disarankan 300×250 atau 300×600.', 'm-news' ),
 		),
 		'single-sidebar'       => array(
 			__( 'Artikel – Sidebar', 'm-news' ),
-			__( 'Sidebar kanan halaman artikel (lebar 300 px). Bila dikosongkan, memakai widget dari "Home – Sidebar". Banner disarankan 300×250 atau 300×600.', 'm-news' ),
+			__( 'Sidebar kanan halaman artikel, arsip, dan pencarian (lebar 300 px). Bila dikosongkan, memakai widget dari "Home – Sidebar"; bila keduanya kosong, tampil daftar Trending bawaan. Banner disarankan 300×250 atau 300×600.', 'm-news' ),
 		),
 		'single-in-article'    => array(
 			__( 'Artikel – Di Dalam Konten', 'm-news' ),

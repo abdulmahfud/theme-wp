@@ -8,6 +8,9 @@
 		var togglers = document.querySelectorAll('.mnw-toggle,[data-mnw-nav-toggle]');
 		var setOpen = function (open, focusSearch) {
 			nav.classList.toggle('is-open', open);
+			// The panel lives inside <header>, which has its own z-index (stacking context); this lets it
+			// outrank the bottom nav bar while open instead of being trapped under it (see main.css).
+			document.body.classList.toggle('mnw-nav-open', open);
 			Array.prototype.forEach.call(togglers, function (t) {
 				t.setAttribute('aria-expanded', open ? 'true' : 'false');
 			});
