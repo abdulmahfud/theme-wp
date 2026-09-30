@@ -1,0 +1,2 @@
+<form method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+  <input type="text" class="search-field" name="s" placeholder="<?php $cariberita = get_theme_mod('cari-berita-setting'); if(!empty($cariberita)) {echo $cariberita; } else { echo "Cari Berita"; }; ?>" value="<?php the_search_query(); ?>" /> <input type="submit" class="search-submit" value="" /></form>

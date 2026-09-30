@@ -1,0 +1,17 @@
+/*
+Theme Name: M-Nata
+Theme URI: https://m-onetech.id
+Description: Tema portal berita WordPress yang ringan dan cepat. Skema warna gradient yang bisa dipilih di Customizer, dan semua bagian home & sidebar berupa widget.
+Author: M-Onetech
+Author URI: https://m-onetech.id
+Version: 1.2.1
+Requires at least: 6.3
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: m-nata
+Tags: news, blog, two-columns, right-sidebar, custom-logo, custom-menu, custom-colors, featured-images, threaded-comments, translation-ready
+
+Styles live in assets/css/main.css (single render-blocking file, see CLAUDE.md performance budget).
+*/

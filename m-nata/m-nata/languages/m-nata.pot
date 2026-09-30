@@ -1,0 +1,1760 @@
+# Copyright (C) 2026 M-Onetech
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: M-Nata 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/m-nata\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-29T08:58:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: m-nata\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/customizer/panel.php:19
+msgid "M-Nata"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://m-onetech.id"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Tema portal berita WordPress yang ringan dan cepat. Skema warna gradient yang bisa dipilih di Customizer, dan semua bagian home & sidebar berupa widget."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "M-Onetech"
+msgstr ""
+
+#: 404.php:17
+msgid "Halaman tidak ditemukan"
+msgstr ""
+
+#: 404.php:18
+msgid "Tautan yang Anda buka mungkin salah atau beritanya sudah dipindahkan. Coba cari berita yang Anda maksud:"
+msgstr ""
+
+#: 404.php:25
+#: template-parts/content-none.php:27
+msgid "Berita Terbaru"
+msgstr ""
+
+#. translators: %s: number of comments.
+#: comments.php:19
+#, php-format
+msgid "%s Komentar"
+msgid_plural "%s Komentar"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37
+msgid "Komentar ditutup."
+msgstr ""
+
+#: comments.php:43
+msgid "Tinggalkan komentar"
+msgstr ""
+
+#: comments.php:46
+msgid "Kirim Komentar"
+msgstr ""
+
+#. translators: 1: year, 2: site name.
+#: footer.php:14
+#, php-format
+msgid "Copyright © %1$s %2$s - All Rights Reserved"
+msgstr ""
+
+#: footer.php:31
+#: inc/customizer/layout.php:139
+msgid "MEDIA NETWORK"
+msgstr ""
+
+#: front-page.php:37
+msgid "Berita Terkini"
+msgstr ""
+
+#: header.php:19
+msgid "Lewati ke konten"
+msgstr ""
+
+#: header.php:31
+msgid "Menu"
+msgstr ""
+
+#: header.php:36
+msgid "Menu utama"
+msgstr ""
+
+#: inc/admin.php:20
+msgid "Pilih gambar banner"
+msgstr ""
+
+#: inc/admin.php:21
+msgid "Gunakan gambar ini"
+msgstr ""
+
+#: inc/admin.php:24
+msgid "Memuat…"
+msgstr ""
+
+#: inc/admin.php:25
+msgid "Gagal memuat daftar wilayah. Isi kode manual."
+msgstr ""
+
+#: inc/ads.php:17
+msgid "Medium Rectangle"
+msgstr ""
+
+#: inc/ads.php:18
+msgid "Large Rectangle"
+msgstr ""
+
+#: inc/ads.php:19
+msgid "Half Page"
+msgstr ""
+
+#: inc/ads.php:20
+msgid "Wide Skyscraper"
+msgstr ""
+
+#: inc/ads.php:21
+msgid "Leaderboard"
+msgstr ""
+
+#: inc/ads.php:22
+msgid "Large Leaderboard"
+msgstr ""
+
+#: inc/ads.php:23
+msgid "Billboard"
+msgstr ""
+
+#: inc/ads.php:24
+msgid "Banner"
+msgstr ""
+
+#: inc/ads.php:25
+msgid "Large Mobile Banner"
+msgstr ""
+
+#: inc/ads.php:26
+msgid "Mobile Banner"
+msgstr ""
+
+#: inc/ads.php:63
+msgid "Ukuran kustom (isi lebar & tinggi)"
+msgstr ""
+
+#: inc/bmkg.php:229
+msgid "Setiap 10 menit"
+msgstr ""
+
+#: inc/breadcrumbs.php:17
+#: inc/demo/importer.php:333
+msgid "Beranda"
+msgstr ""
+
+#: inc/breadcrumbs.php:37
+msgid "Breadcrumb"
+msgstr ""
+
+#. translators: %s: list of sizes and ratios.
+#: inc/customizer/ads.php:18
+#, php-format
+msgid "Pasang banner lewat Tampilan > Widget memakai widget \"M-Nata: Banner Iklan\" di area yang diinginkan (header, samping 160×600, sidebar, dalam artikel, setelah artikel). Ukuran standar (rasio): %s."
+msgstr ""
+
+#: inc/customizer/ads.php:32
+msgid "Tampilkan label di atas banner"
+msgstr ""
+
+#: inc/customizer/ads.php:41
+#: inc/widgets/banner-ad.php:154
+msgid "Iklan"
+msgstr ""
+
+#: inc/customizer/ads.php:48
+msgid "Teks label banner"
+msgstr ""
+
+#: inc/customizer/ads.php:64
+msgid "Banner samping kiri/kanan tetap tampil saat halaman digulir (sticky)"
+msgstr ""
+
+#: inc/customizer/ads.php:65
+msgid "Hanya di layar sangat lebar (≥ 1560 px), tempat banner 160×600 tampil."
+msgstr ""
+
+#: inc/customizer/ads.php:81
+msgid "Sisipkan banner dalam artikel setelah paragraf ke-"
+msgstr ""
+
+#: inc/customizer/ads.php:82
+msgid "Untuk widget di area \"Artikel – Di Dalam Konten\"."
+msgstr ""
+
+#: inc/customizer/colors.php:28
+msgid "Kombinasi gradient"
+msgstr ""
+
+#: inc/customizer/colors.php:29
+msgid "Pilih salah satu, atau \"Kustom\" untuk memilih 2–4 warna sendiri."
+msgstr ""
+
+#. translators: %d: colour number.
+#: inc/customizer/colors.php:47
+#, php-format
+msgid "Warna %d (opsional)"
+msgstr ""
+
+#. translators: %d: colour number.
+#: inc/customizer/colors.php:49
+#, php-format
+msgid "Warna %d"
+msgstr ""
+
+#: inc/customizer/colors.php:81
+msgid "Arah gradient"
+msgstr ""
+
+#: inc/customizer/colors.php:90
+msgid "Bar menu utama"
+msgstr ""
+
+#: inc/customizer/colors.php:91
+#: inc/customizer/panel.php:31
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/colors.php:92
+msgid "Tombol & label"
+msgstr ""
+
+#: inc/customizer/colors.php:93
+msgid "Latar Blok Kategori"
+msgstr ""
+
+#: inc/customizer/colors.php:94
+msgid "Garis judul blok"
+msgstr ""
+
+#. translators: %s: element name.
+#: inc/customizer/colors.php:108
+#, php-format
+msgid "Gradient pada: %s"
+msgstr ""
+
+#: inc/customizer/controls.php:58
+msgid "Kustom (pilih sendiri)"
+msgstr ""
+
+#: inc/customizer/layout.php:27
+msgid "Header menempel di atas saat scroll"
+msgstr ""
+
+#: inc/customizer/layout.php:43
+msgid "Tampilkan ticker breaking news"
+msgstr ""
+
+#: inc/customizer/layout.php:52
+#: inc/template-tags.php:122
+#: inc/widgets/post-list.php:49
+msgid "Terbaru"
+msgstr ""
+
+#: inc/customizer/layout.php:59
+msgid "Label ticker"
+msgstr ""
+
+#: inc/customizer/layout.php:75
+msgid "Slug tag sumber ticker"
+msgstr ""
+
+#: inc/customizer/layout.php:76
+msgid "Contoh: breaking-news. Kosongkan untuk memakai berita terbaru."
+msgstr ""
+
+#: inc/customizer/layout.php:92
+msgid "Jumlah berita di ticker"
+msgstr ""
+
+#: inc/customizer/layout.php:112
+msgid "Keterangan zona waktu"
+msgstr ""
+
+#: inc/customizer/layout.php:113
+msgid "Ditampilkan setelah jam terbit, mis. WIB / WITA / WIT. Kosongkan untuk menyembunyikan."
+msgstr ""
+
+#: inc/customizer/layout.php:130
+msgid "Alamat / info redaksi"
+msgstr ""
+
+#: inc/customizer/layout.php:146
+msgid "Judul menu media network"
+msgstr ""
+
+#: inc/customizer/layout.php:162
+msgid "Teks copyright"
+msgstr ""
+
+#: inc/customizer/layout.php:163
+msgid "Kosongkan untuk teks otomatis: © tahun + nama situs."
+msgstr ""
+
+#: inc/customizer/layout.php:180
+msgid "Bersihkan bawaan WordPress yang tidak perlu"
+msgstr ""
+
+#: inc/customizer/layout.php:181
+msgid "Hapus emoji, wp-embed, meta generator, dan CSS blok di halaman non-artikel agar lebih cepat. Matikan jika sebuah plugin bermasalah."
+msgstr ""
+
+#: inc/customizer/panel.php:25
+msgid "Warna & Gradient"
+msgstr ""
+
+#: inc/customizer/panel.php:26
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/panel.php:27
+msgid "Social Media Follow"
+msgstr ""
+
+#: inc/customizer/panel.php:28
+msgid "Social Media Share"
+msgstr ""
+
+#: inc/customizer/panel.php:29
+msgid "Banner Iklan"
+msgstr ""
+
+#: inc/customizer/panel.php:30
+msgid "Artikel"
+msgstr ""
+
+#: inc/customizer/panel.php:32
+msgid "Performa"
+msgstr ""
+
+#: inc/customizer/share.php:46
+msgid "Tombol bagikan di halaman artikel. Berupa tautan biasa ke tiap jaringan (tanpa skrip pihak ketiga); hanya \"Salin Link\" memakai JavaScript kecil."
+msgstr ""
+
+#. translators: %s: network name.
+#: inc/customizer/share.php:61
+#, php-format
+msgid "Tampilkan: %s"
+msgstr ""
+
+#: inc/customizer/share.php:78
+msgid "Urutan tombol"
+msgstr ""
+
+#: inc/customizer/share.php:79
+msgid "Tulis id dipisah koma: "
+msgstr ""
+
+#: inc/customizer/share.php:97
+msgid "Posisi"
+msgstr ""
+
+#: inc/customizer/share.php:101
+msgid "Di atas artikel (bawah judul)"
+msgstr ""
+
+#: inc/customizer/share.php:102
+msgid "Di bawah artikel"
+msgstr ""
+
+#: inc/customizer/share.php:103
+msgid "Atas dan bawah"
+msgstr ""
+
+#: inc/customizer/share.php:104
+msgid "Sembunyikan"
+msgstr ""
+
+#: inc/customizer/share.php:119
+msgid "Bar bagikan melayang di bawah layar (khusus mobile)"
+msgstr ""
+
+#: inc/customizer/share.php:137
+msgid "Gaya ikon"
+msgstr ""
+
+#: inc/customizer/share.php:141
+msgid "Warna tiap jaringan"
+msgstr ""
+
+#: inc/customizer/share.php:142
+msgid "Gradient tema"
+msgstr ""
+
+#: inc/customizer/share.php:143
+msgid "Garis tepi"
+msgstr ""
+
+#: inc/customizer/share.php:158
+msgid "Tampilkan nama jaringan di samping ikon"
+msgstr ""
+
+#: inc/customizer/share.php:174
+msgid "Template teks bagikan"
+msgstr ""
+
+#: inc/customizer/share.php:175
+msgid "Pakai {title} dan {url}. Dipakai oleh WhatsApp, X, Telegram, Pinterest, dan Email."
+msgstr ""
+
+#: inc/customizer/share.php:183
+msgid "Tampilkan nama penulis (by-line)"
+msgstr ""
+
+#: inc/customizer/share.php:184
+msgid "Tampilkan Penulis / Editor / Sumber di akhir artikel"
+msgstr ""
+
+#: inc/customizer/share.php:185
+msgid "Tampilkan tag di akhir artikel"
+msgstr ""
+
+#: inc/customizer/share.php:186
+msgid "Tampilkan \"Berita Terkait\" di bawah artikel"
+msgstr ""
+
+#: inc/customizer/share.php:209
+#: inc/related.php:114
+msgid "Berita Terkait"
+msgstr ""
+
+#: inc/customizer/share.php:216
+msgid "Judul blok berita terkait"
+msgstr ""
+
+#: inc/customizer/share.php:232
+msgid "Jumlah berita terkait"
+msgstr ""
+
+#: inc/customizer/share.php:252
+msgid "Sisipkan \"Baca Juga\" setelah paragraf ke- (0 = matikan)"
+msgstr ""
+
+#: inc/demo/admin.php:16
+#: inc/demo/admin.php:75
+msgid "Impor Demo M-Nata"
+msgstr ""
+
+#: inc/demo/admin.php:17
+#: inc/demo/admin.php:210
+msgid "Impor Demo"
+msgstr ""
+
+#: inc/demo/admin.php:42
+msgid "Menyiapkan gambar…"
+msgstr ""
+
+#: inc/demo/admin.php:43
+msgid "Membuat kategori, halaman, dan menu…"
+msgstr ""
+
+#: inc/demo/admin.php:44
+msgid "Mengimpor artikel"
+msgstr ""
+
+#: inc/demo/admin.php:45
+msgid "Memasang widget…"
+msgstr ""
+
+#: inc/demo/admin.php:46
+msgid "Menerapkan pengaturan…"
+msgstr ""
+
+#: inc/demo/admin.php:47
+msgid "Menyelesaikan…"
+msgstr ""
+
+#: inc/demo/admin.php:48
+msgid "Menghapus konten demo…"
+msgstr ""
+
+#: inc/demo/admin.php:49
+msgid "Impor selesai! Situs Anda kini tampil seperti demo."
+msgstr ""
+
+#: inc/demo/admin.php:50
+msgid "Konten demo sudah dihapus."
+msgstr ""
+
+#: inc/demo/admin.php:51
+msgid "Terjadi kesalahan:"
+msgstr ""
+
+#: inc/demo/admin.php:52
+msgid "Hapus semua konten demo (artikel, halaman, gambar, dan widget yang dibuat impor)? Konten Anda sendiri tidak disentuh."
+msgstr ""
+
+#: inc/demo/admin.php:65
+msgid "Artikel, halaman, dan menu demo"
+msgstr ""
+
+#: inc/demo/admin.php:65
+msgid "30 artikel (6 kategori × 5) dengan gambar unggulan, 5 halaman, dan menu utama/footer."
+msgstr ""
+
+#: inc/demo/admin.php:66
+msgid "Widget dan tata letak"
+msgstr ""
+
+#: inc/demo/admin.php:66
+msgid "Slider, blok kategori, banner iklan (termasuk sticky), cuaca dan gempa BMKG, trending, topik, sosial."
+msgstr ""
+
+#: inc/demo/admin.php:67
+msgid "Pengaturan tampilan"
+msgstr ""
+
+#: inc/demo/admin.php:67
+msgid "Gradient warna, ticker, tombol bagikan, tautan sosial, footer."
+msgstr ""
+
+#: inc/demo/admin.php:68
+msgid "Logo M-Nata"
+msgstr ""
+
+#: inc/demo/admin.php:68
+msgid "Memasang logo contoh sebagai logo situs."
+msgstr ""
+
+#: inc/demo/admin.php:69
+msgid "Judul dan slogan situs"
+msgstr ""
+
+#: inc/demo/admin.php:69
+msgid "Menjadi \"Portal Berita M-Nata\"."
+msgstr ""
+
+#: inc/demo/admin.php:70
+msgid "Permalink dan zona waktu"
+msgstr ""
+
+#: inc/demo/admin.php:70
+msgid "Permalink /nama-artikel/ dan zona waktu Asia/Jakarta (disarankan untuk portal berita)."
+msgstr ""
+
+#: inc/demo/admin.php:71
+msgid "Hapus konten bawaan WordPress"
+msgstr ""
+
+#: inc/demo/admin.php:71
+msgid "\"Hello world!\" dan \"Sample Page\"."
+msgstr ""
+
+#. translators: %s: date and time of the last import.
+#: inc/demo/admin.php:82
+#, php-format
+msgid "Demo sudah diimpor pada %s."
+msgstr ""
+
+#: inc/demo/admin.php:84
+msgid "Lihat situs"
+msgstr ""
+
+#: inc/demo/admin.php:89
+msgid "Satu klik untuk membuat situs Anda tampil seperti demo tema. Impor bersifat menambah: konten Anda sendiri tidak dihapus (kecuali \"Hello world!\" dan \"Sample Page\" bila dipilih). Aman diulang; artikel yang sudah ada dilewati."
+msgstr ""
+
+#: inc/demo/admin.php:109
+msgid "Impor Demo Sekarang"
+msgstr ""
+
+#: inc/demo/admin.php:111
+msgid "Hapus konten demo"
+msgstr ""
+
+#: inc/demo/admin.php:123
+msgid "Catatan: seluruh artikel demo bersifat fiktif. Cuaca dan gempa memakai data BMKG langsung (butuh koneksi internet); ganti wilayah cuaca di Tampilan > Widget."
+msgstr ""
+
+#: inc/demo/admin.php:144
+msgid "Aktifkan lisensi M-Nata terlebih dahulu (Tampilan > Lisensi)."
+msgstr ""
+
+#: inc/demo/admin.php:147
+#: inc/license/admin.php:159
+msgid "Anda tidak punya izin."
+msgstr ""
+
+#: inc/demo/admin.php:189
+msgid "Langkah tidak dikenal."
+msgstr ""
+
+#: inc/demo/admin.php:207
+msgid "Terima kasih telah memakai M-Nata!"
+msgstr ""
+
+#: inc/demo/admin.php:208
+msgid "Ingin situs Anda langsung tampil seperti demo?"
+msgstr ""
+
+#: inc/demo/admin.php:211
+msgid "Tidak, terima kasih"
+msgstr ""
+
+#. translators: %d: number of images.
+#: inc/demo/importer.php:287
+#, php-format
+msgid "Gambar disiapkan (%d baru)."
+msgstr ""
+
+#: inc/demo/importer.php:382
+msgid "Kategori, halaman, dan menu dibuat."
+msgstr ""
+
+#. translators: %d: number of widgets.
+#: inc/demo/importer.php:535
+#, php-format
+msgid "%d widget dipasang di area home, sidebar, dan artikel."
+msgstr ""
+
+#: inc/demo/importer.php:580
+msgid "pengaturan tampilan"
+msgstr ""
+
+#: inc/demo/importer.php:586
+msgid "logo"
+msgstr ""
+
+#: inc/demo/importer.php:592
+msgid "judul & slogan"
+msgstr ""
+
+#: inc/demo/importer.php:599
+msgid "permalink & zona waktu"
+msgstr ""
+
+#: inc/demo/importer.php:614
+msgid "konten bawaan WordPress dihapus"
+msgstr ""
+
+#. translators: %s: list of things that were set.
+#: inc/demo/importer.php:618
+#, php-format
+msgid "Diatur: %s."
+msgstr ""
+
+#. translators: %s: list of things that were set.
+#: inc/demo/importer.php:618
+msgid "Tidak ada pengaturan yang diubah."
+msgstr ""
+
+#: inc/demo/importer.php:632
+msgid "Selesai. Cache dibersihkan."
+msgstr ""
+
+#: inc/helpers.php:18
+msgid "Ungu – Magenta"
+msgstr ""
+
+#: inc/helpers.php:23
+msgid "Biru Laut"
+msgstr ""
+
+#: inc/helpers.php:28
+msgid "Biru – Ungu"
+msgstr ""
+
+#: inc/helpers.php:33
+msgid "Merah – Jingga"
+msgstr ""
+
+#: inc/helpers.php:38
+msgid "Jingga – Merah – Biru"
+msgstr ""
+
+#: inc/helpers.php:43
+msgid "Hijau Tosca"
+msgstr ""
+
+#: inc/helpers.php:48
+msgid "Hijau – Kuning"
+msgstr ""
+
+#: inc/helpers.php:53
+msgid "Merah Marun"
+msgstr ""
+
+#: inc/helpers.php:58
+msgid "Pink – Ungu – Biru"
+msgstr ""
+
+#: inc/helpers.php:63
+msgid "Teal – Jingga"
+msgstr ""
+
+#: inc/helpers.php:68
+msgid "Biru Gelap"
+msgstr ""
+
+#: inc/helpers.php:73
+msgid "Hitam Elegan"
+msgstr ""
+
+#: inc/helpers.php:87
+msgid "Kiri ke kanan"
+msgstr ""
+
+#: inc/helpers.php:88
+msgid "Atas ke bawah"
+msgstr ""
+
+#: inc/helpers.php:89
+msgid "Diagonal (kiri atas ke kanan bawah)"
+msgstr ""
+
+#: inc/helpers.php:90
+msgid "Diagonal (kiri bawah ke kanan atas)"
+msgstr ""
+
+#: inc/license/admin.php:15
+#: inc/license/admin.php:68
+msgid "Lisensi M-Nata"
+msgstr ""
+
+#: inc/license/admin.php:16
+msgid "Lisensi"
+msgstr ""
+
+#: inc/license/admin.php:76
+msgid "Status:"
+msgstr ""
+
+#: inc/license/admin.php:77
+#: inc/license/license.php:334
+msgid "Aktif"
+msgstr ""
+
+#: inc/license/admin.php:82
+msgid "Situs ini berjalan di host lokal/pengembangan, sehingga tema tidak dikunci. Lisensi tetap diperlukan pada domain produksi."
+msgstr ""
+
+#: inc/license/admin.php:88
+msgid "Kunci lisensi"
+msgstr ""
+
+#: inc/license/admin.php:89
+msgid "Domain"
+msgstr ""
+
+#: inc/license/admin.php:91
+msgid "Paket"
+msgstr ""
+
+#: inc/license/admin.php:94
+msgid "Berlaku sampai"
+msgstr ""
+
+#: inc/license/admin.php:95
+msgid "Seumur hidup"
+msgstr ""
+
+#: inc/license/admin.php:97
+msgid "Terakhir terverifikasi"
+msgstr ""
+
+#: inc/license/admin.php:98
+msgid "Pemeriksaan terakhir"
+msgstr ""
+
+#: inc/license/admin.php:107
+msgid "Periksa ulang sekarang"
+msgstr ""
+
+#: inc/license/admin.php:109
+msgid "Lisensi ini terkunci ke domain ini. Untuk memindahkannya ke domain lain, hubungi dukungan M-Onetech — pemindahan tidak bisa dilakukan sendiri dari layar ini."
+msgstr ""
+
+#: inc/license/admin.php:112
+msgid "Pembaruan tema"
+msgstr ""
+
+#. translators: %s: installed version.
+#: inc/license/admin.php:117
+#, php-format
+msgid "Versi terpasang: %s."
+msgstr ""
+
+#. translators: %s: new version.
+#: inc/license/admin.php:121
+#, php-format
+msgid "Pembaruan tersedia: %s."
+msgstr ""
+
+#: inc/license/admin.php:122
+msgid "Perbarui di Tampilan > Tema"
+msgstr ""
+
+#: inc/license/admin.php:124
+msgid "Anda memakai versi terbaru."
+msgstr ""
+
+#: inc/license/admin.php:126
+msgid "Aktifkan lisensi untuk menerima pembaruan otomatis."
+msgstr ""
+
+#: inc/license/admin.php:134
+msgid "Cek pembaruan sekarang"
+msgstr ""
+
+#: inc/license/admin.php:138
+msgid "Ganti kunci lisensi"
+msgstr ""
+
+#: inc/license/admin.php:138
+#: inc/license/admin.php:229
+msgid "Aktifkan lisensi"
+msgstr ""
+
+#: inc/license/admin.php:144
+msgid "Aktifkan"
+msgstr ""
+
+#: inc/license/admin.php:146
+msgid "Kunci lisensi dikirim ke server lisensi M-Onetech bersama nama domain situs ini. Satu lisensi memiliki batas jumlah domain."
+msgstr ""
+
+#: inc/license/admin.php:174
+msgid "Lisensi berhasil diaktifkan. Terima kasih!"
+msgstr ""
+
+#: inc/license/admin.php:187
+msgid "Lisensi terverifikasi."
+msgstr ""
+
+#. translators: %s: version.
+#: inc/license/admin.php:205
+#, php-format
+msgid "Pembaruan tersedia: versi %s."
+msgstr ""
+
+#: inc/license/admin.php:206
+msgid "Tidak ada pembaruan; Anda memakai versi terbaru."
+msgstr ""
+
+#: inc/license/admin.php:226
+msgid "Lisensi M-Nata belum valid."
+msgstr ""
+
+#: inc/license/admin.php:228
+msgid "Pengunjung saat ini melihat halaman \"lisensi diperlukan\"."
+msgstr ""
+
+#: inc/license/gate.php:43
+msgid "Lisensi M-Nata belum valid — pengunjung melihat halaman \"lisensi diperlukan\"."
+msgstr ""
+
+#: inc/license/gate.php:45
+msgid "Aktifkan sekarang"
+msgstr ""
+
+#: inc/license/license.php:268
+msgid "Format kunci lisensi tidak valid."
+msgstr ""
+
+#: inc/license/license.php:275
+msgid "Server lisensi tidak dapat dihubungi. Periksa koneksi internet server Anda lalu coba lagi."
+msgstr ""
+
+#: inc/license/license.php:278
+msgid "Aktivasi ditolak oleh server lisensi."
+msgstr ""
+
+#: inc/license/license.php:283
+msgid "Jawaban server lisensi tidak dapat diverifikasi (tanda tangan tidak cocok)."
+msgstr ""
+
+#: inc/license/license.php:333
+msgid "Mode pengembangan (host lokal) — tidak perlu lisensi."
+msgstr ""
+
+#: inc/license/license.php:335
+msgid "Belum diaktifkan."
+msgstr ""
+
+#: inc/license/license.php:336
+msgid "Lisensi sudah kedaluwarsa."
+msgstr ""
+
+#: inc/license/license.php:337
+msgid "Lisensi dicabut."
+msgstr ""
+
+#: inc/license/license.php:338
+msgid "Lisensi dibekukan."
+msgstr ""
+
+#: inc/license/license.php:339
+msgid "Kunci lisensi tidak valid."
+msgstr ""
+
+#: inc/license/license.php:340
+msgid "Lisensi ini terdaftar untuk domain lain."
+msgstr ""
+
+#: inc/license/license.php:341
+msgid "Lisensi tidak dapat diverifikasi ulang (server lisensi tidak terjangkau melebihi masa toleransi)."
+msgstr ""
+
+#: inc/license/updates.php:168
+msgid "Alamat paket pembaruan tidak dipercaya."
+msgstr ""
+
+#: inc/license/updates.php:176
+msgid "Paket pembaruan gagal diverifikasi (checksum tidak cocok). Pembaruan dibatalkan."
+msgstr ""
+
+#: inc/meta.php:17
+msgid "Sub-judul (tampil di bawah judul)"
+msgstr ""
+
+#: inc/meta.php:18
+msgid "Penulis / reporter"
+msgstr ""
+
+#: inc/meta.php:19
+msgid "Editor"
+msgstr ""
+
+#: inc/meta.php:20
+msgid "Sumber berita"
+msgstr ""
+
+#: inc/meta.php:28
+msgid "Info Berita (M-Nata)"
+msgstr ""
+
+#: inc/related.php:100
+msgid "Baca Juga:"
+msgstr ""
+
+#: inc/render.php:18
+msgid "Daftar (gambar kiri)"
+msgstr ""
+
+#: inc/render.php:19
+msgid "Ringkas (gambar kecil)"
+msgstr ""
+
+#: inc/render.php:20
+msgid "Bernomor / Trending"
+msgstr ""
+
+#: inc/render.php:21
+msgid "Grid 2 kolom"
+msgstr ""
+
+#: inc/render.php:22
+msgid "Grid 3 kolom"
+msgstr ""
+
+#: inc/render.php:23
+msgid "1 besar + daftar ringkas"
+msgstr ""
+
+#: inc/render.php:195
+#: inc/render.php:298
+#: template-parts/archive.php:94
+msgid "Sebelumnya"
+msgstr ""
+
+#: inc/render.php:196
+#: inc/render.php:298
+#: template-parts/archive.php:95
+msgid "Selanjutnya"
+msgstr ""
+
+#: inc/render.php:202
+msgid "Halaman berita"
+msgstr ""
+
+#: inc/render.php:253
+msgid "Berita utama"
+msgstr ""
+
+#. translators: %d: slide number.
+#: inc/render.php:310
+#, php-format
+msgid "Slide %d"
+msgstr ""
+
+#: inc/setup.php:37
+msgid "Menu Utama"
+msgstr ""
+
+#: inc/setup.php:38
+msgid "Menu Footer"
+msgstr ""
+
+#: inc/setup.php:39
+msgid "Menu Media Network (footer)"
+msgstr ""
+
+#: inc/sharing.php:25
+msgid "Email"
+msgstr ""
+
+#: inc/sharing.php:26
+msgid "Salin Link"
+msgstr ""
+
+#: inc/sharing.php:120
+msgid "Bagikan artikel"
+msgstr ""
+
+#: inc/sharing.php:122
+msgid "Bagikan"
+msgstr ""
+
+#. translators: %s: network name.
+#: inc/sharing.php:136
+msgid "Salin tautan artikel"
+msgstr ""
+
+#. translators: %s: network name.
+#: inc/sharing.php:136
+#, php-format
+msgid "Bagikan ke %s"
+msgstr ""
+
+#: inc/sharing.php:143
+msgid "Tersalin!"
+msgstr ""
+
+#: inc/template-tags.php:169
+msgid "Sidebar"
+msgstr ""
+
+#: inc/template-tags.php:175
+msgid "Trending"
+msgstr ""
+
+#: inc/widget-areas.php:31
+msgid "Banner Header"
+msgstr ""
+
+#: inc/widget-areas.php:32
+msgid "Di bawah menu, lebar penuh. Ukuran disarankan: 970×90 atau 728×90 (desktop) dan 320×100 (mobile)."
+msgstr ""
+
+#: inc/widget-areas.php:35
+msgid "Banner Samping Kiri"
+msgstr ""
+
+#: inc/widget-areas.php:36
+msgid "Di sisi kiri konten, hanya layar sangat lebar (≥1560 px). Ukuran disarankan: 160×600 (rasio 4:15)."
+msgstr ""
+
+#: inc/widget-areas.php:39
+msgid "Banner Samping Kanan"
+msgstr ""
+
+#: inc/widget-areas.php:40
+msgid "Di sisi kanan konten, hanya layar sangat lebar (≥1560 px). Ukuran disarankan: 160×600 (rasio 4:15)."
+msgstr ""
+
+#: inc/widget-areas.php:43
+msgid "Home – Atas"
+msgstr ""
+
+#: inc/widget-areas.php:44
+msgid "Lebar penuh di atas konten home, biasanya Slider Headline."
+msgstr ""
+
+#: inc/widget-areas.php:47
+msgid "Home – Konten Utama"
+msgstr ""
+
+#: inc/widget-areas.php:48
+msgid "Kolom kiri halaman depan. Urutan widget = urutan tampil. Isi dengan Daftar Berita, Blok Kategori, dan Banner Iklan (mis. 300×250 / 728×90)."
+msgstr ""
+
+#: inc/widget-areas.php:51
+msgid "Home – Sidebar"
+msgstr ""
+
+#: inc/widget-areas.php:52
+msgid "Sidebar kanan halaman depan (lebar 300 px). Banner disarankan 300×250 atau 300×600."
+msgstr ""
+
+#: inc/widget-areas.php:55
+msgid "Artikel – Sidebar"
+msgstr ""
+
+#: inc/widget-areas.php:56
+msgid "Sidebar kanan halaman artikel (lebar 300 px). Bila dikosongkan, memakai widget dari \"Home – Sidebar\". Banner disarankan 300×250 atau 300×600."
+msgstr ""
+
+#: inc/widget-areas.php:59
+msgid "Artikel – Di Dalam Konten"
+msgstr ""
+
+#: inc/widget-areas.php:60
+msgid "Disisipkan setelah paragraf tertentu di dalam artikel. Ukuran disarankan: 300×250 atau 336×280."
+msgstr ""
+
+#: inc/widget-areas.php:63
+msgid "Artikel – Setelah Konten"
+msgstr ""
+
+#: inc/widget-areas.php:64
+msgid "Di bawah isi artikel. Ukuran disarankan: 728×90 atau 300×250."
+msgstr ""
+
+#: inc/widget-areas.php:66
+msgid "Footer 1"
+msgstr ""
+
+#: inc/widget-areas.php:66
+msgid "Kolom footer pertama."
+msgstr ""
+
+#: inc/widget-areas.php:67
+msgid "Footer 2"
+msgstr ""
+
+#: inc/widget-areas.php:67
+msgid "Kolom footer kedua."
+msgstr ""
+
+#: inc/widget-areas.php:68
+msgid "Footer 3"
+msgstr ""
+
+#: inc/widget-areas.php:68
+msgid "Kolom footer ketiga."
+msgstr ""
+
+#: inc/widgets/abstract-widget.php:219
+msgid "— Semua kategori —"
+msgstr ""
+
+#: inc/widgets/abstract-widget.php:238
+msgid "Provinsi"
+msgstr ""
+
+#: inc/widgets/abstract-widget.php:239
+msgid "Kabupaten / Kota"
+msgstr ""
+
+#: inc/widgets/abstract-widget.php:240
+msgid "Kecamatan"
+msgstr ""
+
+#: inc/widgets/abstract-widget.php:241
+msgid "Desa / Kelurahan"
+msgstr ""
+
+#: inc/widgets/abstract-widget.php:257
+msgid "Pilih gambar"
+msgstr ""
+
+#: inc/widgets/abstract-widget.php:258
+msgid "Hapus"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:21
+msgid "M-Nata: Banner Iklan"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:22
+msgid "Banner gambar + tautan, atau kode iklan (AdSense/HTML). Pilih ukuran standar; rasio ditampilkan di pilihan."
+msgstr ""
+
+#: inc/widgets/banner-ad.php:35
+msgid "Ukuran banner (ukuran · rasio)"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:41
+msgid "Lebar kustom (px)"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:48
+msgid "Tinggi kustom (px)"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:55
+msgid "Jenis"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:58
+msgid "Gambar banner"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:59
+msgid "Kode iklan (AdSense / HTML)"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:64
+msgid "Gambar (jenis Gambar)"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:69
+msgid "Tautan tujuan (jenis Gambar)"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:74
+msgid "Teks alternatif gambar"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:79
+msgid "Buka tautan di tab baru"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:84
+msgid "Kode iklan (jenis Kode)"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:86
+msgid "Dimuat setelah halaman tampil dan saat mendekati layar, supaya tidak memperlambat. Skrip hanya tersimpan utuh untuk pengguna dengan izin unfiltered_html."
+msgstr ""
+
+#: inc/widgets/banner-ad.php:90
+msgid "Tempel saat halaman digulir (sticky, khusus sidebar)"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:92
+msgid "Banner tetap terlihat saat pembaca menggulir ke bawah. Hanya berlaku bila widget ini paling bawah di sidebar, supaya tidak menutupi widget lain. Cocok untuk 300×600 atau 300×250."
+msgstr ""
+
+#: inc/widgets/banner-ad.php:96
+msgid "Tampil di"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:99
+msgid "Semua perangkat"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:100
+msgid "Desktop saja (≥ 768 px)"
+msgstr ""
+
+#: inc/widgets/banner-ad.php:101
+msgid "Mobile saja (< 768 px)"
+msgstr ""
+
+#: inc/widgets/category-block.php:21
+msgid "M-Nata: Blok Kategori"
+msgstr ""
+
+#: inc/widgets/category-block.php:22
+msgid "Blok berita satu kategori dengan judul + tautan \"Lihat semua\", bisa berlatar gradient tema atau warna sendiri."
+msgstr ""
+
+#: inc/widgets/category-block.php:35
+#: inc/widgets/post-list.php:56
+#: inc/widgets/slider.php:50
+#: template-parts/archive.php:18
+msgid "Kategori"
+msgstr ""
+
+#: inc/widgets/category-block.php:40
+msgid "Judul (kosong = nama kategori)"
+msgstr ""
+
+#: inc/widgets/category-block.php:45
+#: inc/widgets/post-list.php:40
+msgid "Layout"
+msgstr ""
+
+#: inc/widgets/category-block.php:47
+msgid "Carousel (geser)"
+msgstr ""
+
+#: inc/widgets/category-block.php:51
+#: inc/widgets/post-list.php:66
+msgid "Jumlah berita"
+msgstr ""
+
+#: inc/widgets/category-block.php:58
+msgid "Latar blok"
+msgstr ""
+
+#: inc/widgets/category-block.php:61
+msgid "Tanpa latar"
+msgstr ""
+
+#: inc/widgets/category-block.php:62
+msgid "Gradient tema (atur di Customizer)"
+msgstr ""
+
+#: inc/widgets/category-block.php:63
+msgid "Warna sendiri"
+msgstr ""
+
+#: inc/widgets/category-block.php:68
+msgid "Warna (bila \"Warna sendiri\")"
+msgstr ""
+
+#: inc/widgets/category-block.php:73
+#: inc/widgets/post-list.php:73
+msgid "Batas baris judul (0 = otomatis)"
+msgstr ""
+
+#: inc/widgets/category-block.php:80
+msgid "Tampilkan label kategori pada tiap berita"
+msgstr ""
+
+#: inc/widgets/category-block.php:85
+#: inc/widgets/post-list.php:86
+msgid "Tampilkan waktu terbit"
+msgstr ""
+
+#: inc/widgets/category-block.php:90
+msgid "Tampilkan tautan \"Lihat semua\""
+msgstr ""
+
+#: inc/widgets/category-block.php:144
+msgid "Lihat semua"
+msgstr ""
+
+#: inc/widgets/earthquake.php:28
+msgid "M-Nata: Info Gempa (BMKG)"
+msgstr ""
+
+#: inc/widgets/earthquake.php:29
+msgid "Gempa terkini, gempa M 5.0+, atau gempa dirasakan dari BMKG. Data di-cache dan diperbarui otomatis."
+msgstr ""
+
+#: inc/widgets/earthquake.php:42
+#: inc/widgets/html-embed.php:35
+#: inc/widgets/post-list.php:35
+#: inc/widgets/social-follow.php:35
+#: inc/widgets/tag-cloud.php:35
+#: inc/widgets/visitors.php:42
+#: inc/widgets/weather.php:42
+msgid "Judul"
+msgstr ""
+
+#: inc/widgets/earthquake.php:43
+msgid "Info Gempa"
+msgstr ""
+
+#: inc/widgets/earthquake.php:47
+msgid "Data"
+msgstr ""
+
+#: inc/widgets/earthquake.php:50
+msgid "Gempa terkini (1 kejadian, lengkap)"
+msgstr ""
+
+#: inc/widgets/earthquake.php:51
+msgid "Daftar gempa M 5.0+"
+msgstr ""
+
+#: inc/widgets/earthquake.php:52
+msgid "Daftar gempa dirasakan"
+msgstr ""
+
+#: inc/widgets/earthquake.php:57
+msgid "Jumlah kejadian (untuk daftar)"
+msgstr ""
+
+#: inc/widgets/earthquake.php:64
+msgid "Tampilkan peta guncangan (± 230 KB, hanya mode \"terkini\")"
+msgstr ""
+
+#: inc/widgets/earthquake.php:66
+msgid "Gambar dari BMKG dimuat lazy. Nonaktif secara bawaan demi kecepatan."
+msgstr ""
+
+#: inc/widgets/earthquake.php:106
+#: inc/widgets/weather.php:135
+#: single.php:92
+msgid "Sumber:"
+msgstr ""
+
+#. translators: %s: depth.
+#: inc/widgets/earthquake.php:142
+#, php-format
+msgid "Kedalaman: %s"
+msgstr ""
+
+#. translators: 1: latitude, 2: longitude.
+#: inc/widgets/earthquake.php:143
+#, php-format
+msgid "Lokasi: %1$s, %2$s"
+msgstr ""
+
+#. translators: %s: felt in areas.
+#: inc/widgets/earthquake.php:145
+#, php-format
+msgid "Dirasakan: %s"
+msgstr ""
+
+#: inc/widgets/earthquake.php:152
+msgid "Peta guncangan gempa (BMKG)"
+msgstr ""
+
+#: inc/widgets/html-embed.php:21
+msgid "M-Nata: HTML / Embed"
+msgstr ""
+
+#: inc/widgets/html-embed.php:22
+msgid "HTML bebas untuk widget pihak ketiga (skor bola, cuaca, harga emas, dsb.)."
+msgstr ""
+
+#: inc/widgets/html-embed.php:40
+msgid "Kode HTML"
+msgstr ""
+
+#: inc/widgets/html-embed.php:42
+msgid "Skrip hanya tersimpan utuh untuk pengguna dengan izin unfiltered_html."
+msgstr ""
+
+#: inc/widgets/html-embed.php:46
+msgid "Tinggi cadangan (px)"
+msgstr ""
+
+#: inc/widgets/html-embed.php:50
+msgid "Ruang yang dicadangkan agar halaman tidak bergeser saat embed dimuat."
+msgstr ""
+
+#: inc/widgets/html-embed.php:54
+msgid "Muat saat mendekati layar (disarankan)"
+msgstr ""
+
+#: inc/widgets/post-list.php:21
+msgid "M-Nata: Daftar Berita"
+msgstr ""
+
+#: inc/widgets/post-list.php:22
+msgid "Daftar berita dengan pilihan layout: daftar, ringkas, trending bernomor, grid, atau 1 besar + daftar. Bisa jadi feed \"Berita Terkini\" dengan halaman."
+msgstr ""
+
+#: inc/widgets/post-list.php:46
+msgid "Urutan"
+msgstr ""
+
+#: inc/widgets/post-list.php:50
+msgid "Terpopuler (jumlah komentar)"
+msgstr ""
+
+#: inc/widgets/post-list.php:51
+msgid "Acak"
+msgstr ""
+
+#: inc/widgets/post-list.php:61
+#: inc/widgets/slider.php:55
+msgid "Slug tag (opsional)"
+msgstr ""
+
+#: inc/widgets/post-list.php:77
+msgid "Judul yang lebih panjang dipotong dengan \"…\". Otomatis: 3 baris untuk daftar, 2 baris untuk layout lain."
+msgstr ""
+
+#: inc/widgets/post-list.php:81
+msgid "Tampilkan kategori"
+msgstr ""
+
+#: inc/widgets/post-list.php:91
+msgid "Feed dengan nomor halaman"
+msgstr ""
+
+#: inc/widgets/post-list.php:93
+msgid "Untuk \"Berita Terkini\" di halaman depan. Sebaiknya hanya satu widget per halaman yang memakai ini."
+msgstr ""
+
+#: inc/widgets/slider.php:21
+msgid "M-Nata: Slider Headline"
+msgstr ""
+
+#: inc/widgets/slider.php:22
+msgid "Slider berita utama. Model: slider + thumbnail, slider penuh, atau carousel 3 kolom."
+msgstr ""
+
+#: inc/widgets/slider.php:35
+msgid "Judul (opsional)"
+msgstr ""
+
+#: inc/widgets/slider.php:40
+msgid "Model"
+msgstr ""
+
+#: inc/widgets/slider.php:43
+msgid "Slider + thumbnail di bawah"
+msgstr ""
+
+#: inc/widgets/slider.php:44
+msgid "Slider penuh (titik navigasi)"
+msgstr ""
+
+#: inc/widgets/slider.php:45
+msgid "Carousel 3 kolom"
+msgstr ""
+
+#: inc/widgets/slider.php:57
+msgid "Contoh: headline. Kosongkan untuk berita terbaru."
+msgstr ""
+
+#: inc/widgets/slider.php:61
+msgid "Jumlah slide"
+msgstr ""
+
+#: inc/widgets/slider.php:68
+msgid "Batas baris judul"
+msgstr ""
+
+#: inc/widgets/slider.php:72
+msgid "Judul yang lebih panjang dipotong dengan \"…\" agar caption tidak menutupi gambar."
+msgstr ""
+
+#: inc/widgets/slider.php:76
+msgid "Tampilkan label kategori"
+msgstr ""
+
+#: inc/widgets/slider.php:81
+msgid "Geser otomatis"
+msgstr ""
+
+#: inc/widgets/social-follow.php:21
+msgid "M-Nata: Sosial Follow"
+msgstr ""
+
+#: inc/widgets/social-follow.php:22
+msgid "Ikon akun media sosial (diisi di Customizer > M-Nata > Social Media Follow)."
+msgstr ""
+
+#: inc/widgets/social-follow.php:36
+msgid "Ikuti Kami"
+msgstr ""
+
+#: inc/widgets/tag-cloud.php:21
+msgid "M-Nata: Tag / Topik"
+msgstr ""
+
+#: inc/widgets/tag-cloud.php:22
+msgid "Tag terpopuler sebagai tombol kecil (\"Topik Terkini\")."
+msgstr ""
+
+#: inc/widgets/tag-cloud.php:36
+msgid "Topik Terkini"
+msgstr ""
+
+#: inc/widgets/tag-cloud.php:40
+msgid "Jumlah tag"
+msgstr ""
+
+#: inc/widgets/visitors.php:28
+msgid "M-Nata: Statistik Pengunjung"
+msgstr ""
+
+#: inc/widgets/visitors.php:29
+msgid "Pengunjung online, hari ini, kemarin, bulan ini, dan total. Dihitung lewat permintaan latar belakang kecil (tetap cepat dengan page cache, bisa dipakai di AMP), tanpa menyimpan alamat IP."
+msgstr ""
+
+#: inc/widgets/visitors.php:43
+msgid "Statistik Pengunjung"
+msgstr ""
+
+#: inc/widgets/visitors.php:47
+msgid "Tampilkan pengunjung online (5 menit terakhir)"
+msgstr ""
+
+#: inc/widgets/visitors.php:52
+msgid "Tampilkan pengunjung hari ini"
+msgstr ""
+
+#: inc/widgets/visitors.php:57
+msgid "Tampilkan pengunjung kemarin"
+msgstr ""
+
+#: inc/widgets/visitors.php:62
+msgid "Tampilkan pengunjung bulan ini"
+msgstr ""
+
+#: inc/widgets/visitors.php:67
+msgid "Tampilkan total pengunjung"
+msgstr ""
+
+#: inc/widgets/visitors.php:72
+msgid "Tampilkan total tayangan halaman"
+msgstr ""
+
+#: inc/widgets/visitors.php:77
+msgid "Angka awal total pengunjung"
+msgstr ""
+
+#: inc/widgets/visitors.php:81
+msgid "Ditambahkan ke total, berguna bila situs ini pindahan dan Anda ingin melanjutkan hitungan lama."
+msgstr ""
+
+#: inc/widgets/visitors.php:96
+msgid "Online sekarang"
+msgstr ""
+
+#: inc/widgets/visitors.php:99
+msgid "Hari ini"
+msgstr ""
+
+#: inc/widgets/visitors.php:102
+msgid "Kemarin"
+msgstr ""
+
+#: inc/widgets/visitors.php:105
+msgid "Bulan ini"
+msgstr ""
+
+#: inc/widgets/visitors.php:108
+msgid "Total pengunjung"
+msgstr ""
+
+#: inc/widgets/visitors.php:111
+msgid "Total tayangan"
+msgstr ""
+
+#: inc/widgets/weather.php:28
+msgid "M-Nata: Prakiraan Cuaca (BMKG)"
+msgstr ""
+
+#: inc/widgets/weather.php:29
+msgid "Prakiraan cuaca dari BMKG untuk satu wilayah (desa/kelurahan) yang Anda pilih. Data di-cache dan diperbarui otomatis."
+msgstr ""
+
+#: inc/widgets/weather.php:43
+msgid "Prakiraan Cuaca"
+msgstr ""
+
+#: inc/widgets/weather.php:47
+msgid "Wilayah (kode adm4 BMKG)"
+msgstr ""
+
+#: inc/widgets/weather.php:49
+msgid "Pilih dari daftar di bawah, atau tempel kode wilayah tingkat IV (contoh: 31.71.03.1001)."
+msgstr ""
+
+#: inc/widgets/weather.php:53
+msgid "Jumlah jam berikutnya"
+msgstr ""
+
+#: inc/widgets/weather.php:60
+msgid "Tampilkan kelembapan dan angin"
+msgstr ""
+
+#: inc/widgets/weather.php:77
+msgid "Pilih wilayah di pengaturan widget ini (hanya terlihat oleh admin)."
+msgstr ""
+
+#. translators: %d: humidity percent.
+#: inc/widgets/weather.php:117
+#, php-format
+msgid "Kelembapan %d%%"
+msgstr ""
+
+#. translators: 1: wind speed, 2: wind direction.
+#: inc/widgets/weather.php:120
+#, php-format
+msgid "Angin %1$s km/j %2$s"
+msgstr ""
+
+#: page.php:41
+msgid "Halaman"
+msgstr ""
+
+#: page.php:41
+#: single.php:76
+msgid "Halaman:"
+msgstr ""
+
+#: searchform.php:11
+msgid "Cari berita…"
+msgstr ""
+
+#: searchform.php:11
+msgid "Cari berita"
+msgstr ""
+
+#: searchform.php:12
+msgid "Cari"
+msgstr ""
+
+#: single.php:38
+msgid "Oleh"
+msgstr ""
+
+#: single.php:76
+msgid "Halaman artikel"
+msgstr ""
+
+#: single.php:86
+msgid "Penulis:"
+msgstr ""
+
+#: single.php:89
+msgid "Editor:"
+msgstr ""
+
+#: template-parts/archive.php:22
+msgid "Topik"
+msgstr ""
+
+#: template-parts/archive.php:26
+msgid "Penulis"
+msgstr ""
+
+#: template-parts/archive.php:30
+msgid "Pencarian"
+msgstr ""
+
+#. translators: %s: search query.
+#: template-parts/archive.php:32
+#, php-format
+msgid "Hasil untuk \"%s\""
+msgstr ""
+
+#: template-parts/archive.php:34
+msgid "Arsip"
+msgstr ""
+
+#. translators: %s: number of results.
+#: template-parts/archive.php:59
+#, php-format
+msgid "%s berita ditemukan"
+msgid_plural "%s berita ditemukan"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/content-none.php:15
+msgid "Maaf, tidak ada berita yang cocok dengan kata kunci Anda. Coba kata kunci lain."
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Belum ada berita di bagian ini."
+msgstr ""
+
+#: template-parts/license-locked.php:18
+msgid "Lisensi diperlukan"
+msgstr ""
+
+#: template-parts/license-locked.php:29
+msgid "Situs sedang tidak dapat ditampilkan"
+msgstr ""
+
+#: template-parts/license-locked.php:30
+msgid "Lisensi tema pada situs ini belum aktif atau tidak dapat diverifikasi."
+msgstr ""
+
+#: template-parts/license-locked.php:32
+msgid "Pemilik situs: masuk ke wp-admin lalu buka Tampilan > Lisensi M-Nata untuk mengaktifkan atau memperbarui lisensi."
+msgstr ""

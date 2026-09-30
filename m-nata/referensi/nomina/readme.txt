@@ -1,0 +1,1 @@
+https://update.baturetnostudio.com/nomina/updates/
